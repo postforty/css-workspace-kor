@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div:nth-child(1) {
+            background-color: #aaa;
+            padding: 20px;
+        }
+        div:nth-child(2) {
+            background-color: #bbb;
+            padding: 20px;
+            width: 300px;
+        }
+        span {
+            background-color: #ccc;
+            padding: 20px;
+            display: block;
+            width: 300px;
+            margin-top: 20px;
+        }
+        h3 {
+            display: inline;
+            background-color: #ddd;
+            padding: 20px;
+            width: 300px;
+            height: 300px;
+        }
+        h2 {
+            display: inline-block;
+            background-color: #999;
+            padding: 20px;
+            width: 300px;
+            height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h2>블록 레벨 요소1</h2>
+        <p>width, height 미지정</p>
+    </div>
+    <div>
+        <h2>블록 레벨 요소2</h2>
+        <p>width 300px, height 미지정</p>
+    </div>
+    <span>span inline to block</span>
+    <h3>h3 to inline</h3>
+    <h2>h2 to inline-block</h2>
+</body>
+</html>

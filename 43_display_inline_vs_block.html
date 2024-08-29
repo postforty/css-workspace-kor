@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        span {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            width: 1000px;
+            /* width, height, margin-top, margin-bottom 인라인 요소에서 지정 불가 */
+        }
+        span:nth-child(5) {
+            display: block;
+            margin: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Heading 1</h1>
+    <h2>My Heading 2</h2>
+    <span>Inline</span>
+    <span>Inline</span>
+    <span>Inline</span>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .visible {
+            visibility: visible;
+        }
+
+        .hidden {
+            visibility: hidden;
+        }
+        table, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="visible">visibility: visible</h1>
+    <h1 class="hidden">visibility: hidden</h1>
+    <h1 style="visibility: collapse">visibility: collapse</h1>
+    <h1 style="display: none">display: none</h1>
+
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr style="visibility: collapse">
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr style="visibility: hidden">
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+        </tr>
+        <tr style="display: none">
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td>N</td>
+            <td>O</td>
+        </tr>
+    </table>
+</body>
+
+</html>
