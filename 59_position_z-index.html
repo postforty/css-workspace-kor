@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        /* 최솟값: -2147483648 (32비트 정수의 최소값), 최댓값: 2147483647 (32비트 정수의 최댓값) */
+        div {
+            width: 100px;
+            height: 100px;
+        }
+        .absolute-box {
+            position: absolute;
+        }
+        .orange {
+            background-color: orange;
+            z-index: 1;
+            position: absolute;
+        }
+        .red {
+            background-color: red;
+            left: 50px;
+            top: 50px;
+            z-index: -1
+        }
+        .green {
+            background-color: green;
+            left: 100px;
+            top: 100px;
+            z-index: -2
+        }
+        .blue {
+            background-color: blue;
+            left: 150px;
+            top: 150px;
+            z-index: -3
+        }
+    </style>
+</head>
+
+<body>
+    <div class="orange"></div>
+    <div class="red absolute-box"></div>
+    <div class="green absolute-box"></div>
+    <div class="blue absolute-box"></div>
+</body>
+
+</html>
